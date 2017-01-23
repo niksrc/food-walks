@@ -28,21 +28,31 @@
     "morgan": "^1.7.0",
     "pify": "^2.3.0",
     "ramda": "^0.23.0",
+    "react-router": "4.0.0-alpha.6",
+    "redux-actions": "^1.2.0",
+    "redux-promise": "^0.5.3",
+    "reselect": "^2.5.4",
     "through2": "^2.0.3"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
     "babel-preset-react": "^6.22.0",
+    "eslint-config-xo": "^0.17.0",
+    "eslint-config-xo-react": "^0.10.0",
+    "eslint-plugin-react": "^6.9.0",
     "html-webpack-plugin": "^2.26.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
     "webpack": "2.2",
     "webpack-dev-server": "^1.16.2",
     "xo": "^0.17.1"
   },
   "xo": {
     "esnext": true,
+    "extends": "xo-react",
     "rules": {
       "comma-dangle": [
         "error",
@@ -51,7 +61,8 @@
       "object-curly-spacing": [
         "error",
         "always"
-      ]
+      ],
+      "react/react-in-jsx-scope": 0
     }
   }
 }
