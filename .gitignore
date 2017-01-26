@@ -1,6 +1,7 @@
+src/db
 # build
 build
-
+public/admin
 # Logs
 logs
 *.log
